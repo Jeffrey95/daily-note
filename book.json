@@ -1,4 +1,3 @@
 {
-	"plugins": ["styled-blockquotes", "page-toc-button","-lunr", "-search", "search-plus-mod"],
-	
+	"plugins": ["styled-blockquotes", "page-toc-button", "-lunr", "-search", "search-plus-mod"]
 }
