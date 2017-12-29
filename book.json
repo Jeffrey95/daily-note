@@ -1,9 +1,4 @@
 {
-	"plugins": ["styled-blockquotes", "theme-comscore", "page-toc-button"],
-	"pluginsConfig": {
-		"atoc": {
-			"addClass": true,
-			"className": "atoc"
-		}
-	}
+	"plugins": ["styled-blockquotes", "page-toc-button","-lunr", "-search", "search-plus-mod"],
+	
 }
