@@ -2,5 +2,22 @@
 	"styles": {
 		"website": "styles/website.css"
 	},
-	"plugins": ["styled-blockquotes", "anchor-navigation-ex", "-lunr", "-search", "search-plus-mod","expandable-chapters-small"]
+	"plugins": ["styled-blockquotes", "anchor-navigation-ex", "-lunr", "-search", "search-plus-mod", "expandable-chapters-small", "advanced-emoji", "splitter",
+		"copy-code-button", "todo", "sitemap-general", "tbfed-pagefooter", "sectionx"
+	],
+	"pluginsConfig": {
+		"sitemap-general": {
+			"prefix": "https://wiki.qiujinfeng.com"
+		},
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy qiujinfeng.com 2017",
+			"modify_label": "该文件修订时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"pluginsConfig": {
+			"sectionx": {
+				"tag": "b"
+			}
+		}
+	}
 }
