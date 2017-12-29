@@ -1,4 +1,9 @@
 {
+	"links": {
+		"sidebar": {
+			"Home": "https://blog.qiujinfeng.com"
+		}
+	},
 	"styles": {
 		"website": "styles/website.css"
 	},
@@ -23,7 +28,7 @@
 			]
 		},
 		"anchor-navigation-ex": {
-	           "showLevel":false
-	        }
+			"showLevel": false
+		}
 	}
 }
