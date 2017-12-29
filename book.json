@@ -19,7 +19,7 @@
 		},
 		"prism": {
 			"css": [
-				"prismjs/themes/prism-base16-ateliersulphurpool.light.css"
+				"prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
 			]
 		}
 
