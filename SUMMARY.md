@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
-* [First Chapter](chapter1.md)
-  * [2017.12.19](chapter1/20171219.md)
+* [简介](README.md)
+* [2017.12](chapter1.md)
+  * [2017.12.29](chapter1/20171219.md)
 
