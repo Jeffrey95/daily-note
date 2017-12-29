@@ -19,7 +19,7 @@
 		},
 		"prism": {
 			"css": [
-				"prismjs/themes/prism-coy.css"
+				"prism-solarizedlight.css"
 			]
 		}
 
