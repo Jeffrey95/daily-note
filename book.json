@@ -3,7 +3,7 @@
 		"website": "styles/website.css"
 	},
 	"plugins": ["styled-blockquotes", "anchor-navigation-ex", "-lunr", "-search", "search-plus-mod", "expandable-chapters-small", "advanced-emoji", "splitter",
-		"copy-code-button", "todo", "sitemap-general", "tbfed-pagefooter", "sectionx"
+		"copy-code-button", "todo", "sitemap-general", "tbfed-pagefooter", "sectionx"，"prism","-highlight"
 	],
 	"pluginsConfig": {
 		"sitemap-general": {
