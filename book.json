@@ -1,0 +1,9 @@
+{
+	"plugins": ["styled-blockquotes", "theme-comscore", "atoc"],
+	"pluginsConfig": {
+		"atoc": {
+			"addClass": true,
+			"className": "atoc"
+		}
+	}
+}
