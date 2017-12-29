@@ -2,9 +2,7 @@
 	"styles": {
 		"website": "styles/website.css"
 	},
-	"plugins": ["styled-blockquotes", "anchor-navigation-ex", "-lunr", "-search", "search-plus-mod", "expandable-chapters-small", "advanced-emoji", "splitter",
-		"copy-code-button", "todo", "sitemap-general", "tbfed-pagefooter", "sectionx","prism","-highlight"
-	],
+	"plugins": ["styled-blockquotes", "anchor-navigation-ex", "-lunr", "-search", "search-plus-mod", "expandable-chapters-small", "advanced-emoji", "splitter", "todo", "sitemap-general", "tbfed-pagefooter", "sectionx", "prism", "-highlight"],
 	"pluginsConfig": {
 		"sitemap-general": {
 			"prefix": "https://wiki.qiujinfeng.com"
@@ -18,6 +16,11 @@
 			"sectionx": {
 				"tag": "b"
 			}
+		},
+		"prism": {
+			"css": [
+				"prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+			]
 		}
 	}
 }
