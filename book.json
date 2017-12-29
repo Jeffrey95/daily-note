@@ -2,5 +2,5 @@
 	"styles": {
 		"website": "styles/website.css"
 	},
-	"plugins": ["styled-blockquotes", "page-toc-button", "-lunr", "-search", "search-plus-mod"]
+	"plugins": ["styled-blockquotes", "anchor-navigation-ex", "-lunr", "-search", "search-plus-mod"]
 }
