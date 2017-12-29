@@ -16,11 +16,6 @@
 			"sectionx": {
 				"tag": "b"
 			}
-		},
-		"prism": {
-			"css": [
-				"prismjs/themes/prism-solarizedlight.css"
-			]
 		}
 	}
 }
