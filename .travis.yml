@@ -2,9 +2,23 @@ language: node_js
 node_js: 
   - "stable"
 
+cache:
+  directories:
+    - node_modules
+
 branches:
   only:
   - master
+
+addons:
+  ssh_known_hosts: 198.199.85.208:2333
+
+before_install:
+- openssl aes-256-cbc -K $encrypted_ab1b0c1283a6_key -iv $encrypted_ab1b0c1283a6_iv
+  -in travis.key.enc -out travis.key -d
+- chmod 600 ~/.ssh/id_rsa
+- git config --global username "qiu"
+- git config --global user.emal "q974514569@gmail.com"
 
 install:
 - npm install gitbook-cli
@@ -12,4 +26,7 @@ install:
 script:
 - gitbook install
 - gitbook build
-  
+
+after_success:
+- git remote add origin ssh://git@198.199.85.208:2333/home/git/srv/daily_note.git
+- git push -u vps master:master
