@@ -15,7 +15,7 @@ addons:
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_ab1b0c1283a6_key -iv $encrypted_ab1b0c1283a6_iv
-  -in travis.key.enc -out travis.key -d
+  -in travis.key.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - git config --global username "qiu"
 - git config --global user.emal "q974514569@gmail.com"
