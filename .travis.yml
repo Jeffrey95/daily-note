@@ -28,5 +28,5 @@ script:
 - gitbook build
 
 after_success:
-  - git remote add vps ssh://git@198.199.85.208:2333/home/git/srv/daily_note.git
+    - git remote add vps ssh://git@198.199.85.208:2333/home/git/srv/daily-note.git
   - git push -u vps master:master
