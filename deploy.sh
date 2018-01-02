@@ -1,4 +1,4 @@
-tar -zcf $repo_name.tar.gz _book
-scp $repo_name.tar.gz -P $port git@$ip:$scp-dir
-rm $repo_name.tar.gz
-ssh -p $port @$ip "cd $scp-dir;tar -zxf $repo_name.tar.gz"
+tar -zcf $REPONAME.tar.gz _book
+scp $REPONAME.tar.gz -P $port git@$ip:$SCPDIR
+rm $REPONAME.tar.gz
+ssh -p $port @$ip "cd $REPORTNAME;tar -zxf $REPONAME.tar.gz"

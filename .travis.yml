@@ -29,4 +29,5 @@ script:
 
 
 after_success:
-    - ./deploy.sh
+    - chmod +x deploy.sh
+    - deploy.sh
