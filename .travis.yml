@@ -11,7 +11,7 @@ branches:
   - master
 
 addons:
-  ssh_known_hosts: 198.199.85.208:2333
+  ssh_known_hosts: $ip:$port
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_ab1b0c1283a6_key -iv $encrypted_ab1b0c1283a6_iv
@@ -27,6 +27,6 @@ script:
 - gitbook install
 - gitbook build
 
+
 after_success:
-  - git remote add vps ssh://git@198.199.85.208:2333/home/git/srv/daily-note.git
-  - git push -u vps master:master
+    - ./deploy.sh
