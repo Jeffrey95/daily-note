@@ -2,6 +2,10 @@
 logs
 *.log
 
+#key
+travis.key
+travis.key.pub
+
 # Runtime data
 pids
 *.pid
