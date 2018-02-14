@@ -1,5 +1,5 @@
 # 每日学习笔记
-![build](https://travis-ci.org/Jeffrey95/daily-note.svg?branch=master)
+![build](https://travis-ci.org/Jeffrey95/daily-note.svg?branch=master)  
 ![fly](https://ws1.sinaimg.cn/large/728592fely1fo0tfy5ex7j20ia0aaweq.jpg)
 ## 人无远虑，必有近忧
 大学生活里最大的遗憾，莫过于一开始没有好好地规划。技能树点得太多，却没有一项能做得十分地深入。没有深入地想过自己到底想要什么，所以更谈不上能好好地为之做好准备了。低估了长时间学习的成果，又高估了短时间学习的成果，大概就是这么久以来最大的毛病了。
