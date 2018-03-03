@@ -10,7 +10,7 @@
 	"plugins": ["styled-blockquotes", "anchor-navigation-ex", "-lunr", "-search", "search-plus-mod", "expandable-chapters-small", "advanced-emoji", "splitter", "todo", "sitemap-general", "tbfed-pagefooter", "sectionx", "prism", "-highlight", "prism-themes"],
 	"pluginsConfig": {
 		"sitemap-general": {
-			"prefix": "https://wiki.qiujinfeng.com"
+			"prefix": "https://books.qiujinfeng.com/daily-note"
 		},
 		"tbfed-pagefooter": {
 			"copyright": "Copyright &copy qiujinfeng.com 2017",
